@@ -1,0 +1,60 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<script>
+    function toggleLoginRegister() {
+        var loginModal = new bootstrap.Modal(document.getElementById('loginModal'), {
+            backdrop: 'static'
+        });
+        loginModal.show();
+    }
+</script>
+
+<ul class="navbar-nav ml-auto">
+    @if (!SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <button class="nav-link btn btn-link text-light" onclick="toggleLoginRegister()">
+                Sign in
+            </button>
+        </li>
+    }
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <div class="d-flex flex-column align-items-center">
+                <div class="mb-2">
+                    <!-- Add margin-bottom for spacing -->
+                    Hello <span class="text-light">@User.Identity?.Name.Split('@')[0]</span>!
+                </div>
+                <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                    <button type="submit" class="btn btn-outline-light">
+                        Logout
+                    </button>
+                </form>
+            </div>
+        </li>
+    }
+</ul>
+
+<!-- Login/Register Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white">
+            <div class="modal-header border-bottom-0">
+                <h5 class="modal-title" id="loginModalLabel">Sign In</h5>
+                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <a class="nav-link text-light" asp-area="Identity" asp-page="/Account/Login">
+                    Login
+                </a>
+                <a class="nav-link text-light" asp-area="Identity" asp-page="/Account/Register">
+                    Register
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

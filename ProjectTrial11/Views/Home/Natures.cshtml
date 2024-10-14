@@ -1,0 +1,23 @@
+﻿@model IEnumerable<ProjectTrial11.Models.Nature>
+
+<h1>Natures</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Increases</th>
+            <th>Decreases</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Increases</td>
+                <td>@item.Decreases</td>
+            </tr>
+        }
+    </tbody>
+</table>

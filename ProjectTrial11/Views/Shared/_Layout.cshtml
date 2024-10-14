@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProjectTrial11</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ProjectTrial11.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+
+    <!-- Custom styles for pixelated theme -->
+    <style>
+        body {
+            background-color: #333333;
+            color:gray;
+            font-family: 'Press Start 2P', sans-serif;
+            font-size: 14px;
+        }
+
+        .home-link {
+            text-decoration: none; /* Remove default link underline */
+        }
+
+        .home-card {
+            border: 2px solid #ffffff; /* Add a border around the card */
+            border-radius: 10px; /* Adjust the border radius for rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+            transition: background-color 0.3s; /* Add a smooth transition effect */
+        }
+
+            .home-card:hover {
+                background-color: #f8f9fa; /* Change background color on hover */
+            }
+
+        header {
+            background-color: #1a1a1a;
+            border-bottom: 5px solid #ffff00; /* Changed to yellow */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        main {
+            margin-top: 20px;
+        }
+
+        nav.navbar {
+            background-color: #1a1a1a;
+        }
+
+        
+        .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-menu.text-center  {
+            transform: translateX(-50%);
+            left: 50%;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+        }
+
+            .dropdown-menu.text-center a {
+                margin-bottom: 8px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+            }
+
+            .dropdown-menu.text-center a:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+        }
+    
+
+        .navbar-brand {
+            color: #ffffff !important;
+            font-size: 24px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #ffffff !important;
+            font-size: 18px;
+        }
+
+        .navbar-toggler-icon {
+            color: #ffffff !important;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            border-top: 5px solid #ffff00; /* Changed to yellow */
+            margin-top: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: #ffffff;
+            font-size: 16px;
+        }
+
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .navbar-collapse .navbar-nav .nav-link {
+            color: #ffffff !important;
+        }
+
+        .footer a {
+            color: #ffffff;
+        }
+
+        /* Table Styles */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+        th, td {
+            border: 1px solid #ffff00; /* Changed to yellow */
+            padding: 8px;
+            text-align: left;
+            color: #ffffff; /* Set text color to white */
+        }
+
+        th {
+            background-color: #333333;
+        }
+
+        /* Adjusted font colors for better visibility */
+        .navbar-collapse .navbar-nav .nav-link {
+            color: #ffffff !important;
+        }
+
+        .footer a {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-light"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Cobbledex">
+                                <div class="card bg-light text-dark m-2">
+                                    <div class="card-body">Cobbledex</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Items">
+                                <div class="card bg-light text-dark m-2">
+                                    <div class="card-body">Items</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Locations">
+                                <div class="card bg-light text-dark m-2">
+                                    <div class="card-body">Locations</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light" href="#" id="navbarDropdownCobblemonInfo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="card bg-light text-dark m-2">
+                                    <div class="card-body">CobbleInfo</div>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownCobblemonInfo" style="background-color: #343a40; border-color: #343a40;">
+                                <a class="dropdown-item text-light" asp-area="" asp-controller="Home" asp-action="Abilities">
+                                    Abilities
+                                </a>
+                                <a class="dropdown-item text-light" asp-area="" asp-controller="Home" asp-action="CobblemonList">
+                                    Stats
+                                </a>
+                                <a class="dropdown-item text-light" asp-area="" asp-controller="Home" asp-action="Moves">
+                                    Moves
+                                </a>
+                                <a class="dropdown-item text-light" asp-area="" asp-controller="Home" asp-action="Natures">
+                                    Natures
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light" href="#" id="navbarDropdownCommunity" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="card bg-light text-dark m-2">
+                                    <div class="card-body">Community</div>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownCommunity" style="background-color: #343a40; border-color: #343a40;">
+                                <a class="dropdown-item text-light" asp-area="" asp-controller="QandA" asp-action="QAndA">
+                                    Q&A
+                                </a>
+                                <a class="dropdown-item text-light" asp-area="" asp-controller="Home" asp-action="News">
+                                    Cobblemon News
+                                </a>
+                                <a class="dropdown-item text-light" asp-area="" asp-controller="Home" asp-action="Contact">
+                                    Contact us
+                                </a>
+                            </div>
+                        </li>
+                        @if (User.Identity.Name == "tormentriks367@gmail.com")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="AdminPanel">
+                                    <div class="card bg-light text-dark m-2">
+                                        <div class="card-body">Adm Panel</div>
+                                    </div>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

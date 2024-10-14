@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    /* Add custom styles for the image container */
+    .image-container {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 16.6666666667%; /* 1/6 of the screen */
+        z-index: 1000; /* Ensure it appears above other elements */
+    }
+
+        /* Style the image */
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 10px; /* Optional: Add rounded corners */
+        }
+</style>
+<body>
+    <div class="image-container">
+        <img src="/images/LayoutPic.png" alt="Your Image Alt Text">
+    </div>
+</body>

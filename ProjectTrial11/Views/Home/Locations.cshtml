@@ -1,0 +1,124 @@
+﻿@model IEnumerable<ProjectTrial11.Models.Location>
+
+@{
+    ViewData["Title"] = "Locations";
+}
+
+<style>
+    .separator {
+        margin: 5px 0; /* Adjust the margin to control the spacing */
+        border-top: 1px solid #ccc; /* Add a 1px solid border for separation */
+    }
+</style>
+
+<h2>Locations</h2>
+
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Filter</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#" onclick="selectFilterOption('Name')">Name</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="selectFilterOption('Biome')">Biome</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="selectFilterOption('Time')">Time</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="selectFilterOption('Weather')">Weather</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="selectFilterOption('Context')">Context</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="selectFilterOption('Preset')">Preset</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="selectFilterOption('Rarity')">Rarity</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="selectFilterOption('Requirements')">Requirements</a></li>
+                    </ul>
+                </div>
+                <input type="text" class="form-control" id="searchInput" placeholder="Search...">
+            </div>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Cobblemon Name</th>
+                <th>Biome</th>
+                <th>Time</th>
+                <th>Weather</th>
+                <th>Context</th>
+                <th>Preset</th>
+                <th>Rarity</th>
+                <th>Requirements</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var location in Model)
+            {
+                @foreach (var cobblemonLocation in location.CobblemonLocations)
+                {
+                    <tr>
+                        <td>@cobblemonLocation.Cobblemon.Name</td>
+                        <td>@location.Biome</td>
+                        <td>@location.Time</td>
+                        <td>@location.Weather</td>
+                        <td>@location.Context</td>
+                        <td>@location.Preset</td>
+                        <td>@location.Rarity</td>
+                        <td>@location.Requirements</td>
+                    </tr>
+                    <tr class="separator"></tr> <!-- Add a separator row -->
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function selectFilterOption(option) {
+        document.getElementById('searchInput').placeholder = "Search by " + option;
+    }
+
+    document.getElementById('searchInput').addEventListener('input', function () {
+        var searchValue = this.value.toLowerCase();
+        var filterOption = document.getElementById('searchInput').placeholder.split(' ').pop();
+
+        var rows = document.querySelectorAll('tbody tr');
+
+        rows.forEach(function (row) {
+            var dataCells = row.querySelectorAll('td');
+            var isVisible = false;
+
+            dataCells.forEach(function (cell) {
+                if (cell.innerText.toLowerCase().startsWith(searchValue) && cell.cellIndex === getCellIndex(filterOption)) {
+                    isVisible = true;
+                }
+            });
+
+            if (isVisible) {
+                row.style.display = 'table-row';
+            } else {
+                row.style.display = 'none';
+            }
+        });
+    });
+
+    function getCellIndex(filterOption) {
+        switch (filterOption) {
+            case 'Name':
+                return 0;
+            case 'Biome':
+                return 1;
+            case 'Time':
+                return 2;
+            case 'Weather':
+                return 3;
+            case 'Context':
+                return 4;
+            case 'Preset':
+                return 5;
+            case 'Rarity':
+                return 6;
+            case 'Requirements':
+                return 7;
+            default:
+                return -1;
+        }
+    }
+</script>

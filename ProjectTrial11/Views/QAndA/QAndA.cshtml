@@ -1,0 +1,124 @@
+﻿@model List<ProjectTrial11.Models.Question>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+
+<div class="container">
+    <!-- Search Bar -->
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search questions by title" aria-label="Search" aria-describedby="basic-addon2" id="searchInput">
+        <button class="btn btn-outline-secondary" type="button" id="searchButton">Search</button>
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <button type="button" class="btn btn-primary create-post-btn" data-bs-toggle="modal" data-bs-target="#askQuestionModal">
+                Create a New Post
+            </button>
+        }
+    </div>
+
+    <div class="modal fade" id="askQuestionModal" tabindex="-1" aria-labelledby="askQuestionModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="askQuestionModalLabel">Create a New Post</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Add Question Form -->
+                    <form method="post" asp-action="AskQuestion" asp-controller="QandA">
+                        @Html.AntiForgeryToken()
+                        <div class="mb-3">
+                            <label for="questionTitle" class="form-label">Title</label>
+                            <input type="text" class="form-control" id="questionTitle" name="Title" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="questionBody" class="form-label">Body</label>
+                            <textarea class="form-control" id="questionBody" name="Body" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @foreach (var question in Model)
+    {
+        <div class="question" id="question_@question.Id">
+            <h3>@question.Title</h3>
+            <p>@question.Body</p>
+            <p>Posted: @question.DatePosted</p>
+
+            <div class="comments" style="font-size: 10px;">
+                <h4>Comments</h4>
+                @foreach (var comment in question.Comments)
+                {
+                    <div class="comment" id="comment_@comment.Id">
+                        <p>@comment.Body</p>
+                        <p>Date posted: @comment.DatePosted</p>
+                    </div>
+                }
+            </div>
+
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <div class="add-comment">
+                    <h5>Add a Comment</h5>
+                    <form method="post" asp-action="AddComment" asp-controller="QandA">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="questionId" value="@question.Id" />
+                        <textarea name="commentBody" rows="2" cols="50" required></textarea>
+                        <br />
+                        <button type="submit" class="btn btn-primary">Add Comment</button>
+                    </form>
+                </div>
+            }
+        </div>
+    }
+
+    <style>
+        .question {
+            margin-bottom: 20px; /* Add some space between questions */
+            border-bottom: 1px solid #ccc; /* Add a border below each question */
+            padding-bottom: 20px; /* Add some padding below each question */
+        }
+
+        .comments {
+            margin-top: 10px; /* Add some space above the comments */
+        }
+
+        .comment {
+            border: 1px solid #ccc; /* Add a border around each comment */
+            padding: 10px; /* Add some padding to each comment */
+            margin-bottom: 10px; /* Add some space between comments */
+        }
+
+        .add-comment {
+            margin-top: 20px; /* Add some space above the add comment section */
+        }
+    </style>
+
+    <script>
+        function likeQuestion(questionId) {
+            // Functionality removed as per requirement
+        }
+
+        function dislikeQuestion(questionId) {
+            // Functionality removed as per requirement
+        }
+
+        function likeComment(commentId) {
+            // Functionality removed as per requirement
+        }
+
+        function dislikeComment(commentId) {
+            // Functionality removed as per requirement
+        }
+    </script>
+
+    @if (!Model.Any())
+    {
+        <p>No questions available.</p>
+    }
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

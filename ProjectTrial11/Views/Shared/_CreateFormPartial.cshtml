@@ -1,0 +1,13 @@
+﻿<!-- _CreateFormPartial.cshtml -->
+@model ProjectTrial11.Models.LevelUpMove
+
+<form asp-action="Create" asp-controller="LevelUpMoves">
+    <div class="form-group">
+        <label asp-for="MoveLevel" class="control-label"></label>
+        <input asp-for="MoveLevel" class="form-control" />
+        <span asp-validation-for="MoveLevel" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>

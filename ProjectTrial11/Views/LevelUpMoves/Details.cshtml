@@ -1,0 +1,54 @@
+﻿@model ProjectTrial11.Models.LevelUpMove
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>LevelUpMove</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MoveLevel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MoveLevel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MoveName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MoveName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MoveType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MoveType)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MoveCategory)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MoveCategory)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MovePower)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MovePower)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MoveAccuracy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MoveAccuracy)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

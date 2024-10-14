@@ -1,0 +1,66 @@
+﻿@model ProjectTrial11.Models.BaseStat
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>BaseStat</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CobblemonStatsName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CobblemonStatsName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.HP)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.HP)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Attack)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Attack)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Defense)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Defense)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpecialAttack)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpecialAttack)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpecialDefense)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpecialDefense)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Speed)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Speed)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TotalStats)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TotalStats)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

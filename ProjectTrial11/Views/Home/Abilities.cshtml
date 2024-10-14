@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ProjectTrial11.Models.Ability>
+
+<h1>Abilities</h1>
+
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="searchInput" placeholder="Search by Name...">
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Short Description</th>
+                <th>Effect</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ability in Model)
+            {
+                <tr>
+                    <td>@ability.Name</td>
+                    <td>@ability.ShortDescription</td>
+                    <td>@ability.Effect</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    document.getElementById('searchInput').addEventListener('input', function () {
+        var searchValue = this.value.toLowerCase();
+        var rows = document.querySelectorAll('tbody tr');
+
+        rows.forEach(function (row) {
+            var nameCell = row.querySelector('td:first-child');
+            if (nameCell.innerText.toLowerCase().startsWith(searchValue)) {
+                row.style.display = 'table-row';
+            } else {
+                row.style.display = 'none';
+            }
+        });
+    });
+</script>

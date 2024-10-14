@@ -1,0 +1,60 @@
+﻿@model ProjectTrial11.Models.Location
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Location</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Biome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Biome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Time)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Weather)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Weather)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Context)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Context)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Preset)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Preset)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Rarity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Rarity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Requirements)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Requirements)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

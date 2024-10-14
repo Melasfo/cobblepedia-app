@@ -1,0 +1,252 @@
+﻿@model ProjectTrial11.Models.Cobblemon
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+<h1>@Model.Name</h1>
+<hr />
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NationalDexNum)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NationalDexNum)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Species)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Species)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Height)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Height)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Abilities)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Abilities)
+        </dd>
+        <div>
+            <dl class="row">
+                <dt class="col-sm-2">
+                    Type
+                </dt>
+                <dd class="col-sm-10">
+                    @foreach (var item in Model.CobblemonCTypes)
+                    {
+                        <span>@item.CType.CTypeName</span>
+                    }
+                </dd>
+            </dl>
+        </div>
+        <div>
+            <dl class="row">
+                <dt class="col-sm-2">
+                    Location and Time
+                </dt>
+                <dd class="col-sm-10">
+                    @foreach (var item in Model.CobblemonLocations)
+                    {
+                        <span>@item.Location.Biome</span>
+                    }
+                </dd>
+            </dl>
+        </div>
+    </dl>
+</div>
+    <dt class="col-sm-2">
+    </dt>
+    <dd class="col-sm-10">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@Model.Name Base Stats</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CobblemonBaseStats)
+                {
+                    <tr>
+                        <td>
+                            <strong>TOTAL STATS:</strong> @item.BaseStat.TotalStats
+                            <br />
+                            <br />
+
+                            <strong>ATTACK:</strong> @item.BaseStat.Attack
+                            <div style="height: 10px; width: @(item.BaseStat.Attack / 0.2)px; background-color: #8fb98b;"></div>
+                            <br />
+
+                            <strong>DEFENSE:</strong> @item.BaseStat.Defense
+                            <div style="height: 10px; width: @(item.BaseStat.Defense / 0.2)px; background-color: #8fb98b;"></div>
+                            <br />
+
+                            <strong>SPECIAL ATTACK:</strong> @item.BaseStat.SpecialAttack
+                            <div style="height: 10px; width: @(item.BaseStat.SpecialAttack / 0.2)px; background-color: #8fb98b;"></div>
+                            <br />
+
+                            <strong>SPECIAL DEFENSE:</strong> @item.BaseStat.SpecialDefense
+                            <div style="height: 10px; width: @(item.BaseStat.SpecialDefense / 0.2)px; background-color: #8fb98b;"></div>
+                            <br />
+
+                            <strong>SPEED:</strong> @item.BaseStat.Speed
+                            <div style="height: 10px; width: @(item.BaseStat.Speed / 0.2)px; background-color: #8fb98b;"></div>
+                            <br />
+
+                            <strong>HP:</strong> @item.BaseStat.HP
+                            <div style="height: 10px; width: @(item.BaseStat.HP / 0.2)px; background-color: #8fb98b;"></div>
+                            <br />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </dd>
+<dd class="col-sm-8">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Model.Name Level Up Moveset</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <strong style="width: 100px; display: inline-block;">Lvl.</strong>
+
+                    <strong style="width: 100px; display: inline-block;">Move</strong>
+
+                    <strong style="width: 100px; display: inline-block;">Type</strong>
+
+                    <strong style="width: 100px; display: inline-block;">Category</strong>
+
+                    <strong style="width: 100px; display: inline-block;">Power</strong>
+
+                    <strong style="width: 100px; display: inline-block;">Acc.</strong>
+                    <br />
+                </td>
+            </tr>
+            @foreach (var item in Model.CobblemonLevelUpMoves)
+            {
+                <tr>
+                    <td>
+                        <span style="width: 100px; display: inline-block;">@item.LevelUpMove.MoveLevel</span>
+
+                        <span style="width: 100px; display: inline-block;">@item.LevelUpMove.MoveName</span>
+
+                        <span style="width: 100px; display: inline-block;">@item.LevelUpMove.MoveType</span>
+
+                        <span style="width: 100px; display: inline-block;">@item.LevelUpMove.MoveCategory</span>
+
+                        <span style="width: 100px; display: inline-block;">@item.LevelUpMove.MovePower</span>
+
+                        <span style="width: 100px; display: inline-block;">@item.LevelUpMove.MoveAccuracy</span>
+                        <br />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</dd>
+<dd class="col-sm-8">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Model.Name Moves Learned by TM's</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <strong style="width: 60px; display: inline-block;">TM</strong>
+
+                    <strong style="width: 200px; display: inline-block;">Move</strong>
+
+                    <strong style="width: 100px; display: inline-block;">Type</strong>
+
+                    <strong style="width: 150px; display: inline-block;">Category</strong>
+
+                    <strong style="width: 100px; display: inline-block;">Power</strong>
+
+                    <strong style="width: 100px; display: inline-block;">Acc.</strong>
+                    <br />
+                </td>
+            </tr>
+            @foreach (var item in Model.CobblemonTMMoves)
+            {
+                <tr>
+                    <td>
+                        <span style="width: 60px; display: inline-block;">@item.TMMove.TMNumber</span>
+
+                        <span style="width: 200px; display: inline-block;">@item.TMMove.MoveName</span>
+
+                        <span style="width: 100px; display: inline-block;">@item.TMMove.MoveType</span>
+
+                        <span style="width: 150px; display: inline-block;">@item.TMMove.MoveCategory</span>
+
+                        <span style="width: 100px; display: inline-block;">@item.TMMove.MovePower</span>
+
+                        <span style="width: 100px; display: inline-block;">@item.TMMove.MoveAccuracy</span>
+                        <br />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</dd>
+<dd class="col-sm-8">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Model.Name Egg Moves</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <strong style="width: 150px; display: inline-block;">Move</strong>
+                    <strong style="width: 100px; display: inline-block;">Type</strong>
+                    <strong style="width: 150px; display: inline-block;">Category</strong>
+                    <strong style="width: 100px; display: inline-block;">Power</strong>
+                    <strong style="width: 100px; display: inline-block;">Acc.</strong>
+                    <br />
+                </td>
+            </tr>
+            @foreach (var item in Model.CobblemonEggMoves)
+            {
+                <tr>
+                    <td>
+                        <span style="width: 150px; display: inline-block;">@item.EggMove.MoveName</span>
+                        <span style="width: 100px; display: inline-block;">@item.EggMove.MoveType</span>
+                        <span style="width: 150px; display: inline-block;">@item.EggMove.MoveCategory</span>
+                        <span style="width: 100px; display: inline-block;">@item.EggMove.MovePower</span>
+                        <span style="width: 100px; display: inline-block;">@item.EggMove.MoveAccuracy</span>
+                        <br />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</dd>
+
+

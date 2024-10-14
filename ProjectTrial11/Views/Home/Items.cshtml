@@ -1,0 +1,31 @@
+﻿@model IEnumerable<ProjectTrial11.Models.Item>
+
+<h1>Items</h1>
+
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="searchInput" placeholder="Search...">
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Effect</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Category</td>
+                    <td>@item.Effect</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

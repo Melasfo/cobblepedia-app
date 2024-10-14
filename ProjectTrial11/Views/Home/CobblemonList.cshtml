@@ -1,0 +1,94 @@
+﻿@model IEnumerable<ProjectTrial11.Models.BaseStat>
+
+@{
+    ViewData["Title"] = "CobblemonList";
+}
+
+<h2>Cobblemon List with Stats</h2>
+
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="searchInput" placeholder="Search by Name...">
+        </div>
+        <div class="col-md-6">
+            <select class="form-select" id="sortSelect">
+                <option value="HP">Sort by HP</option>
+                <option value="Attack">Sort by Attack</option>
+                <option value="Defense">Sort by Defense</option>
+                <option value="SpecialAttack">Sort by Special Attack</option>
+                <option value="SpecialDefense">Sort by Special Defense</option>
+                <option value="Speed">Sort by Speed</option>
+                <option value="TotalStats">Sort by Total Stats</option>
+            </select>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Cobblemon Name</th>
+                <th>HP</th>
+                <th>Att.</th>
+                <th>Def.</th>
+                <th>SpAtt.</th>
+                <th>SpDef.</th>
+                <th>Speed</th>
+                <th>TotalStats</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var baseStat in Model)
+            {
+                @foreach (var cobblemonBaseStat in baseStat.CobblemonBaseStats)
+                {
+                    <tr>
+                        <td>@cobblemonBaseStat.Cobblemon.Name</td>
+                        <td>@baseStat.HP</td>
+                        <td>@baseStat.Attack</td>
+                        <td>@baseStat.Defense</td>
+                        <td>@baseStat.SpecialAttack</td>
+                        <td>@baseStat.SpecialDefense</td>
+                        <td>@baseStat.Speed</td>
+                        <td>@baseStat.TotalStats</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('searchInput').addEventListener('input', function () {
+            var searchValue = this.value.toLowerCase();
+            var rows = document.querySelectorAll('tbody tr');
+
+            rows.forEach(function (row) {
+                var nameCell = row.querySelector('td:first-child');
+                if (nameCell.innerText.toLowerCase().startsWith(searchValue)) {
+                    row.style.display = 'table-row';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        });
+
+        document.getElementById('sortSelect').addEventListener('change', function () {
+            var sortBy = this.value;
+            var rows = Array.from(document.querySelectorAll('tbody tr'));
+
+            rows.sort(function (a, b) {
+                var valueA = parseFloat(a.querySelector('td:nth-child(' + (['HP', 'Attack', 'Defense', 'SpecialAttack', 'SpecialDefense', 'Speed', 'TotalStats'].indexOf(sortBy) + 2) + ')').innerText);
+                var valueB = parseFloat(b.querySelector('td:nth-child(' + (['HP', 'Attack', 'Defense', 'SpecialAttack', 'SpecialDefense', 'Speed', 'TotalStats'].indexOf(sortBy) + 2) + ')').innerText);
+
+                return valueB - valueA;
+            });
+
+            var tbody = document.querySelector('tbody');
+            rows.forEach(function (row) {
+                tbody.appendChild(row);
+            });
+        });
+    </script>
+}

@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProjectTrial11.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProjectTrial11.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\15a2c5c4-b71a-4e4e-b80a-545b25515d1a_Sprigatito.png",
+      "PackagePath": "staticwebassets\\images\\15a2c5c4-b71a-4e4e-b80a-545b25515d1a_Sprigatito.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\2879dc8b-e1c2-4c13-8546-9a342e3c4ac9_Ivysaur.png",
+      "PackagePath": "staticwebassets\\images\\2879dc8b-e1c2-4c13-8546-9a342e3c4ac9_Ivysaur.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\4aeb2e31-3265-4371-b187-f7664bd465e0_Chikorita.png",
+      "PackagePath": "staticwebassets\\images\\4aeb2e31-3265-4371-b187-f7664bd465e0_Chikorita.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\4c1ef51d-796b-43c6-adf2-0da89876ac84_Wartortle.png",
+      "PackagePath": "staticwebassets\\images\\4c1ef51d-796b-43c6-adf2-0da89876ac84_Wartortle.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\632b4247-1e87-46c6-9045-4b4232ba3eec_Venusaur.png",
+      "PackagePath": "staticwebassets\\images\\632b4247-1e87-46c6-9045-4b4232ba3eec_Venusaur.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\807dc21c-0d7d-4808-b799-ef85774bbdec_Croconaw.png",
+      "PackagePath": "staticwebassets\\images\\807dc21c-0d7d-4808-b799-ef85774bbdec_Croconaw.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\8aec01c7-3af5-43d0-8581-838e1c8dcc02_Quilava.png",
+      "PackagePath": "staticwebassets\\images\\8aec01c7-3af5-43d0-8581-838e1c8dcc02_Quilava.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\9d590775-1b15-4752-b7bc-b3542caef5a5_Bulbasaur.png",
+      "PackagePath": "staticwebassets\\images\\9d590775-1b15-4752-b7bc-b3542caef5a5_Bulbasaur.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\LayoutPic.png",
+      "PackagePath": "staticwebassets\\images\\LayoutPic.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\a3898acf-798d-4aca-9471-51e3d1a678cb_Charizard.png",
+      "PackagePath": "staticwebassets\\images\\a3898acf-798d-4aca-9471-51e3d1a678cb_Charizard.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\af6b1afc-02a8-4440-81d3-a65c28dac0d4_Charmander.png",
+      "PackagePath": "staticwebassets\\images\\af6b1afc-02a8-4440-81d3-a65c28dac0d4_Charmander.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\b03fc8c7-21f0-4a16-9551-9a9a90f55376_Blastoise.png",
+      "PackagePath": "staticwebassets\\images\\b03fc8c7-21f0-4a16-9551-9a9a90f55376_Blastoise.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\b63a96eb-f34e-4e27-ab5d-95e0bcb210ac_Cyndaquil.png",
+      "PackagePath": "staticwebassets\\images\\b63a96eb-f34e-4e27-ab5d-95e0bcb210ac_Cyndaquil.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\b8ad41e9-1118-456e-90bc-2fb1015908ba_Feraligatr.png",
+      "PackagePath": "staticwebassets\\images\\b8ad41e9-1118-456e-90bc-2fb1015908ba_Feraligatr.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\bcfe5b81-dfb6-47b9-ac93-9e7119ff06ec_Squirtle.png",
+      "PackagePath": "staticwebassets\\images\\bcfe5b81-dfb6-47b9-ac93-9e7119ff06ec_Squirtle.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\cc0c8408-a57b-4de2-8a02-70f906d4aae5_Bayleef.png",
+      "PackagePath": "staticwebassets\\images\\cc0c8408-a57b-4de2-8a02-70f906d4aae5_Bayleef.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\ce26c9d1-da45-411e-ac56-a07313eef754_Totodile.png",
+      "PackagePath": "staticwebassets\\images\\ce26c9d1-da45-411e-ac56-a07313eef754_Totodile.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\d747e281-0bc9-4c76-b05c-6ae328db9de1_Charmeleon.png",
+      "PackagePath": "staticwebassets\\images\\d747e281-0bc9-4c76-b05c-6ae328db9de1_Charmeleon.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\dc62260e-40cf-4d1e-9f5c-b5ed7140c9cc_Meganium.png",
+      "PackagePath": "staticwebassets\\images\\dc62260e-40cf-4d1e-9f5c-b5ed7140c9cc_Meganium.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\dea76815-e9ff-4c2f-8619-7fb61776afff_Charmander.png",
+      "PackagePath": "staticwebassets\\images\\dea76815-e9ff-4c2f-8619-7fb61776afff_Charmander.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\e035fb06-a83e-470f-a06a-827ff78aa9aa_Typhlosion.png",
+      "PackagePath": "staticwebassets\\images\\e035fb06-a83e-470f-a06a-827ff78aa9aa_Typhlosion.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\e254addf-3806-4f23-97ce-dc1e2dda9e5c_Sprigatito.png",
+      "PackagePath": "staticwebassets\\images\\e254addf-3806-4f23-97ce-dc1e2dda9e5c_Sprigatito.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\images\\f54b63b6-65af-4efd-8d07-c459670cd3b6_Sprigatito.png",
+      "PackagePath": "staticwebassets\\images\\f54b63b6-65af-4efd-8d07-c459670cd3b6_Sprigatito.png"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pefan\\source\\repos\\ProjectTrial11\\ProjectTrial11\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProjectTrial11.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ProjectTrial11.props",
+      "PackagePath": "build\\ProjectTrial11.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjectTrial11.props",
+      "PackagePath": "buildMultiTargeting\\ProjectTrial11.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ProjectTrial11.props",
+      "PackagePath": "buildTransitive\\ProjectTrial11.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

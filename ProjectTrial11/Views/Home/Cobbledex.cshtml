@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .card-link {
+        text-decoration: none;
+        color: #007BFF;
+    }
+
+        .card-link:hover {
+            color: #0056b3;
+        }
+
+    .cobblemon-card {
+        margin-bottom: 20px;
+    }
+
+    /* Style for the card */
+    .card {
+        border: 2px solid #007BFF; /* Border color */
+        border-radius: 10px; /* Rounded corners */
+        background-color: #f8f9fa; /* Background color */
+    }
+
+    /* Center the content */
+    .card-body {
+        text-align: center;
+    }
+
+</style>
+
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search Cobblemons...">
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <h1 class="display-4">The Cobblemon National Dex!</h1>
+        <h2 class="display-6">List of our cobblemon</h2>
+
+        @for (int i = 0; i < Model.Count; i += 5)
+        {
+            <div class="row row-cols-5 mb-4">
+                @for (int j = i; j < i + 5 && j < Model.Count; j++)
+                {
+                    <div class="col cobblemon-card">
+                        <a href="/Cobblemons/Details/@Model[j].Id" class="card-link">
+                            <div class="card">
+                                <img src="@Model[j].ImagePath" class="card-img-top" alt="Cobblemon Image" style="height: 220px; object-fit: contain;">
+                                <div class="card-body">
+                                    <h5 class="card-title">@Model[j].Name</h5>
+                                    <p class="card-text">Dex Number: @Model[j].NationalDexNum</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    // Function to filter and display Cobblemons consecutively based on search input
+    document.getElementById('searchInput').addEventListener('input', function () {
+        var searchValue = this.value.trim().toLowerCase();
+        var cobblemonCards = document.querySelectorAll('.cobblemon-card');
+
+        // Hide all Cobblemon cards
+        cobblemonCards.forEach(function (card) {
+            card.style.display = 'none';
+        });
+
+        // Display only the matching Cobblemon cards consecutively
+        var visibleCount = 0;
+        cobblemonCards.forEach(function (card, index) {
+            var cobblemonName = card.querySelector('.card-title').innerText.toLowerCase();
+            if (cobblemonName.startsWith(searchValue)) {
+                card.style.display = 'inline-block';
+                visibleCount++;
+            }
+            // If the current card is visible and not the first in a row, adjust its display
+            if (visibleCount > 0 && (index + 1) % 5 !== 1) {
+                card.style.marginLeft = '20px'; // Add margin to create space
+            }
+        });
+    });
+</script>

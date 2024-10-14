@@ -1,0 +1,96 @@
+﻿@model IEnumerable<ProjectTrial11.Models.Move>
+
+@{
+    ViewData["Title"] = "Moves";
+}
+
+<h2>Moves</h2>
+
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="searchInput" placeholder="Search by Move Name...">
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-dark table-striped" id="movesTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">Move Name</th>
+                    <th onclick="sortTable(1)">Move Type</th>
+                    <th onclick="sortTable(2)">Move Category</th>
+                    <th onclick="sortTable(3)">Move Power</th>
+                    <th onclick="sortTable(4)">Move Accuracy</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var move in Model)
+                {
+                    <tr>
+                        <td>@move.MoveName</td>
+                        <td>@move.MoveType</td>
+                        <td>@move.MoveCategory</td>
+                        <td>@move.MovePower</td>
+                        <td>@move.MoveAccuracy</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function sortTable(columnIndex) {
+            var table, rows, switching, i, x, y, shouldSwitch;
+            table = document.getElementById("movesTable");
+            switching = true;
+
+            while (switching) {
+                switching = false;
+                rows = table.rows;
+
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("td")[columnIndex];
+                    y = rows[i + 1].getElementsByTagName("td")[columnIndex];
+
+                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                }
+            }
+        }
+
+        document.getElementById('searchInput').addEventListener('input', function () {
+            var searchValue = this.value.toLowerCase();
+            var rows = document.querySelectorAll('tbody tr');
+
+            rows.forEach(function (row) {
+                var nameCell = row.querySelector('td:first-child');
+                if (nameCell.innerText.toLowerCase().startsWith(searchValue)) {
+                    row.style.display = 'table-row';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        });
+    </script>
+    <style>
+        th {
+            cursor: pointer;
+        }
+
+            th:hover {
+                background-color: #555;
+                color: white;
+            }
+    </style>
+}

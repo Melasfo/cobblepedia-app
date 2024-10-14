@@ -1,0 +1,189 @@
+﻿@model ProjectTrial11.ViewModels.CobblemonViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Cobblemon</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="Image">Slika:</label>
+                <input type="file" id="Image" name="Image"
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NationalDexNum" class="control-label"></label>
+                <input asp-for="NationalDexNum" class="form-control" />
+                <span asp-validation-for="NationalDexNum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Species" class="control-label"></label>
+                <input asp-for="Species" class="form-control" />
+                <span asp-validation-for="Species" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Height" class="control-label"></label>
+                <input asp-for="Height" class="form-control" />
+                <span asp-validation-for="Height" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Weight" class="control-label"></label>
+                <input asp-for="Weight" class="form-control" />
+                <span asp-validation-for="Weight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Abilities" class="control-label"></label>
+                <input asp-for="Abilities" class="form-control" />
+                <span asp-validation-for="Abilities" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>
+                    Does this Cobblemon evolve?
+                    <input asp-for="CanEvolve" type="checkbox" />
+                </label>
+            </div>
+
+            <div class="form-group" id="evolutionMethodSection" style="display:none;">
+                <label asp-for="EvolutionMethod">Evolution Method:</label>
+                <select asp-for="EvolutionMethod" class="form-control">
+                    <option value="">Select Evolution Method</option>
+                    <option value="When friendship is high">When friendship is high</option>
+                    <option value="When the cobblemon knows a certain move">When the cobblemon knows a certain move</option>
+                    <option value="In certain locations">In certain locations</option>
+                    <option value="In a certain region">In a certain region</option>
+                    <option value="At certain times">At certain times</option>
+                    <option value="While holding an item">While holding an item</option>
+                    <option value="If the cobblemon is a certain gender">If the cobblemon is a certain gender</option>
+                    <option value="Evolution Stone">Evolution Stone</option>
+                    <option value="Trade holding a certain item">Trade holding a certain item</option>
+                    <option value="Trading for a certain pokemon">Trading for a certain pokemon</option>
+                    <option value="Trading">Trading</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="CTypeIds">Cobblemon Type</label>
+                <select id="CTypeIds" name="CTypeIds" multiple class="form-control">
+                    @foreach (var CType in ViewBag.CTypes as List<CType>)
+                    {
+                        string selected = "";
+                        if (Model.CTypeIds != null && Model.CTypeIds.Contains(CType.Id))
+                        {
+                            selected = "selected";
+                        }
+                        <option value="@CType.Id">@CType.CTypeName</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="BaseStatIds">Base Stats</label>
+                <select id="BaseStatIds" name="BaseStatIds" class="form-control">
+                    @foreach (var BaseStat in ViewBag.BaseStats as List<BaseStat>)
+                    {
+                        string selected = "";
+                        if (Model.BaseStatIds != null && Model.BaseStatIds.Contains(BaseStat.Id))
+                        {
+                            selected = "selected";
+                        }
+                        <option value="@BaseStat.Id">@BaseStat.CobblemonStatsName</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="LevelUpMoveIds">Level Up Moves</label>
+                <select id="LevelUpMoveIds" name="LevelUpMoveIds" multiple class="form-control">
+                    @foreach (var LevelUpMove in ViewBag.LevelUpMoves as List<LevelUpMove>)
+                    {
+                        string selected = "";
+                        if (Model.LevelUpMoveIds != null && Model.LevelUpMoveIds.Contains(LevelUpMove.Id))
+                        {
+                            selected = "selected";
+                        }
+                        <option value="@LevelUpMove.Id">@LevelUpMove.MoveName at level: @LevelUpMove.MoveLevel</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="TMMoveIds">TM Moves</label>
+                <select id="TMMoveIds" name="TMMoveIds" multiple class="form-control">
+                    @foreach(var TMMove in ViewBag.TMMoves as List<TMMove>)
+                    {
+                        string selected = "";
+                        if(Model.TMMoveIds != null && Model.TMMoveIds.Contains(TMMove.Id))
+                        {
+                            selected = "selected";
+                        }
+                        <option value="@TMMove.Id">@TMMove.MoveName</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="EggMoveIds">Egg Moves</label>
+                <select id="EggMoveIds" name="EggMoveIds" multiple class="form-control">
+                    @foreach (var EggMove in ViewBag.EggMoves as List<EggMove>)
+                    {
+                        string selected = "";
+                        if (Model.EggMoveIds != null && Model.EggMoveIds.Contains(EggMove.Id))
+                        {
+                            selected = "selected";
+                        }
+                        <option value="@EggMove.Id">@EggMove.MoveName</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="LocationIds">Cobblemon Locations</label>
+                <select id="LocationIds" name="LocationIds" multiple class="form-control">
+                    @foreach (var Location in ViewBag.Locations as List<Location>)
+                    {
+                        string selected = "";
+                        if (Model.LocationIds != null && Model.LocationIds.Contains(Location.Id))
+                        {
+                            selected = "selected";
+                        }
+                        <option value="@Location.Id">@Location.Biome @Location.Time</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(function () {
+            var $evolveCheckbox = $('[name="CanEvolve"]');
+            var $evolutionMethodSection = $('#evolutionMethodSection');
+
+            $evolveCheckbox.change(function () {
+                $evolutionMethodSection.toggle($evolveCheckbox.is(':checked'));
+            });
+        });
+    </script>
+}

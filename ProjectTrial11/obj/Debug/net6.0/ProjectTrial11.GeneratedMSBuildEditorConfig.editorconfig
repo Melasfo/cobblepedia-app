@@ -1,0 +1,337 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjectTrial11
+build_property.RootNamespace = ProjectTrial11
+build_property.ProjectDir = C:\Users\Pefan\source\repos\ProjectTrial11\ProjectTrial11\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Pefan\source\repos\ProjectTrial11\ProjectTrial11
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Abilities/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJpbGl0aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Abilities/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJpbGl0aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Abilities/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJpbGl0aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Abilities/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJpbGl0aWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Abilities/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJpbGl0aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/BaseStats/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFzZVN0YXRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/BaseStats/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFzZVN0YXRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/BaseStats/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFzZVN0YXRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/BaseStats/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFzZVN0YXRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/BaseStats/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFzZVN0YXRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Cobblemons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29iYmxlbW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Cobblemons/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29iYmxlbW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Cobblemons/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29iYmxlbW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Cobblemons/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29iYmxlbW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Cobblemons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29iYmxlbW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/CTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1R5cGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/CTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1R5cGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/CTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1R5cGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/CTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1R5cGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/CTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1R5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/EggMoves/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWdnTW92ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/EggMoves/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWdnTW92ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/EggMoves/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWdnTW92ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/EggMoves/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWdnTW92ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/EggMoves/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWdnTW92ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Home/Abilities.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYmlsaXRpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Home/AdminPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pblBhbmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Home/Cobbledex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb2JibGVkZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Home/CobblemonList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb2JibGVtb25MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Home/Items.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJdGVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Home/Locations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2NhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Home/Moves.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb3Zlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Home/Natures.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOYXR1cmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Home/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Items/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Items/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Items/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Items/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Items/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/LevelUpMoves/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxVcE1vdmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/LevelUpMoves/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxVcE1vdmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/LevelUpMoves/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxVcE1vdmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/LevelUpMoves/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxVcE1vdmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/LevelUpMoves/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxVcE1vdmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Locations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Locations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Locations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Locations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Locations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Moves/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Moves/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Moves/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Moves/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Moves/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Natures/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0dXJlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Natures/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0dXJlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Natures/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0dXJlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Natures/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0dXJlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Natures/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0dXJlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/News1/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3czFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/News1/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3czFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/News1/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3czFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/News1/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3czFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/News1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3czFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/QAndA/QAndA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUFuZEFcUUFuZEEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Shared/_CreateFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DcmVhdGVGb3JtUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/TMMoves/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVE1Nb3Zlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/TMMoves/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVE1Nb3Zlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/TMMoves/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVE1Nb3Zlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/TMMoves/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVE1Nb3Zlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/TMMoves/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVE1Nb3Zlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pefan/source/repos/ProjectTrial11/ProjectTrial11/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-57uhj1gcbz
